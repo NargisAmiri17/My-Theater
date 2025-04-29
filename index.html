@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nargis Theater</title>
+    <link rel="stylesheet" href="style.css">
+ </head>
+<body>
+    <section>
+        <h1>Welcome to Nargis Theater!🥇</h1>
+        <marquee behavior="alternate" scrollamount="10" class="marquee">
+            Enjoy the Show!
+        </marquee>
+        <video controls class="theater">
+            <source src="Media/Whatsapp_20220616062535.mp4" type="video/mp4">
+            Your browser dose not support the video tag.
+        </video>
+        <div class="buttons">
+            <button onclick="document.querySelector('video').currentTime = 0; document.querySelector('video').play();">
+                Play Again
+            </button>
+            <button onclick="alert('Thanks for rating')">Rate Movie</button>
+        </div>
+    </section>
+</body>
+</html>
